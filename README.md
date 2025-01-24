@@ -1,2 +1,2 @@
 # fan-speed-control-system
-Arduino source code, Arduino schematics, 555 circuit simulation (LTSpice).
+Fan speed control system using PWM which excited either by a 555-timer control circuit or, alternatively, by an Arduino. Duty ratio of PWM signal varies with ambient temperature detected using NTC thermistor. Both alternatives employ audio frequency range to support small DC fan motors' mechanical response and inertia accordingly. Results show positive correlation between fan speed and detected temperature.
